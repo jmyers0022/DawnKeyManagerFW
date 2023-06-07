@@ -1,0 +1,16 @@
+PODS:
+  - DawnKeyManagerFW (0.0.1)
+
+DEPENDENCIES:
+  - DawnKeyManagerFW (from `../`)
+
+EXTERNAL SOURCES:
+  DawnKeyManagerFW:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DawnKeyManagerFW: 7d6f7fbf79d33742f05d8859121f338387f0dd60
+
+PODFILE CHECKSUM: 76aa99f8a5fedc878b9f025cff079b4209450440
+
+COCOAPODS: 1.12.1
