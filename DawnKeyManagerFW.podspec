@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'DawnKeyManagement'
-  s.module_name      = 'Wallet'
-  s.version          = '0.1.3'
+  s.name             = 'DawnKeyManagerFW'
+  # s.module_name      = 'Wallet'
+  s.version          = '0.0.1'
   s.summary          = 'A cocoapods wrapper for https://github.com/dawnwallet/dawn-key-management.'
 
 # This description is used to generate tags and improve search results.
@@ -60,10 +60,10 @@ Pod::Spec.new do |s|
     'DEFINES_MODULE' => 'YES'
   }
 
-  s.requires_arc = true
+  # s.requires_arc = true
 
   # s.module_map = './DawnKeyManagement.modulemap'
-  # s.static_framework = true
+  s.static_framework = true
 
   # s.resource_bundles = {
   #   'DawnKeyManagement' => ['DawnKeyManagement/Assets/*.png']

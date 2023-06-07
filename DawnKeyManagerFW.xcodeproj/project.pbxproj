@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2345AC2E2A30F3AB00152E39 /* ExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345AC2D2A30F3AB00152E39 /* ExampleApp.swift */; };
+		2345AC302A30F3AB00152E39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2345AC2F2A30F3AB00152E39 /* ContentView.swift */; };
+		2345AC322A30F3AC00152E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2345AC312A30F3AC00152E39 /* Assets.xcassets */; };
+		2345AC352A30F3AC00152E39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2345AC342A30F3AC00152E39 /* Preview Assets.xcassets */; };
 		237D9B092A2E8EE6000EA903 /* DawnKeyManagerFW.docc in Sources */ = {isa = PBXBuildFile; fileRef = 237D9B082A2E8EE6000EA903 /* DawnKeyManagerFW.docc */; };
 		237D9B0F2A2E8EE6000EA903 /* DawnKeyManagerFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237D9B042A2E8EE6000EA903 /* DawnKeyManagerFW.framework */; };
 		237D9B142A2E8EE6000EA903 /* DawnKeyManagerFWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237D9B132A2E8EE6000EA903 /* DawnKeyManagerFWTests.swift */; };
 		237D9B152A2E8EE6000EA903 /* DawnKeyManagerFW.h in Headers */ = {isa = PBXBuildFile; fileRef = 237D9B072A2E8EE6000EA903 /* DawnKeyManagerFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77D49E959C832B8C14667AF6 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED04EB1F240B325490FB4358 /* Pods_Example.framework */; };
+		AB351E4287F398AAAF36B4CD /* Pods_DawnKeyManagerFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2895CA8E2E9A35E66DBAC8FD /* Pods_DawnKeyManagerFW.framework */; };
+		EE02FDECE0C568BAE3199610 /* Pods_DawnKeyManagerFW_DawnKeyManagerFWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22CBAEEEC09DA174AD5D4F6 /* Pods_DawnKeyManagerFW_DawnKeyManagerFWTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,18 +31,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E67C58E4830A09C5AEFC5DD /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		2345AC2B2A30F3AB00152E39 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2345AC2D2A30F3AB00152E39 /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
+		2345AC2F2A30F3AB00152E39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2345AC312A30F3AC00152E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2345AC342A30F3AC00152E39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		237D9B042A2E8EE6000EA903 /* DawnKeyManagerFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DawnKeyManagerFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		237D9B072A2E8EE6000EA903 /* DawnKeyManagerFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DawnKeyManagerFW.h; sourceTree = "<group>"; };
 		237D9B082A2E8EE6000EA903 /* DawnKeyManagerFW.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = DawnKeyManagerFW.docc; sourceTree = "<group>"; };
 		237D9B0E2A2E8EE6000EA903 /* DawnKeyManagerFWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DawnKeyManagerFWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		237D9B132A2E8EE6000EA903 /* DawnKeyManagerFWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DawnKeyManagerFWTests.swift; sourceTree = "<group>"; };
+		2895CA8E2E9A35E66DBAC8FD /* Pods_DawnKeyManagerFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DawnKeyManagerFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CEB0E25912AD811EE765A3 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8A7B0E7665DD850203C526C7 /* Pods-DawnKeyManagerFW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawnKeyManagerFW.debug.xcconfig"; path = "Target Support Files/Pods-DawnKeyManagerFW/Pods-DawnKeyManagerFW.debug.xcconfig"; sourceTree = "<group>"; };
+		9FDCCB7141E56E56B43EF355 /* Pods-DawnKeyManagerFW-DawnKeyManagerFWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawnKeyManagerFW-DawnKeyManagerFWTests.debug.xcconfig"; path = "Target Support Files/Pods-DawnKeyManagerFW-DawnKeyManagerFWTests/Pods-DawnKeyManagerFW-DawnKeyManagerFWTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E22CBAEEEC09DA174AD5D4F6 /* Pods_DawnKeyManagerFW_DawnKeyManagerFWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DawnKeyManagerFW_DawnKeyManagerFWTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E25514A8EFEADE0A76EA7B0A /* Pods-DawnKeyManagerFW-DawnKeyManagerFWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawnKeyManagerFW-DawnKeyManagerFWTests.release.xcconfig"; path = "Target Support Files/Pods-DawnKeyManagerFW-DawnKeyManagerFWTests/Pods-DawnKeyManagerFW-DawnKeyManagerFWTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5D31B0301133509483AD8DF /* Pods-DawnKeyManagerFW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DawnKeyManagerFW.release.xcconfig"; path = "Target Support Files/Pods-DawnKeyManagerFW/Pods-DawnKeyManagerFW.release.xcconfig"; sourceTree = "<group>"; };
+		ED04EB1F240B325490FB4358 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2345AC282A30F3AB00152E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D49E959C832B8C14667AF6 /* Pods_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		237D9B012A2E8EE6000EA903 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB351E4287F398AAAF36B4CD /* Pods_DawnKeyManagerFW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +74,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				237D9B0F2A2E8EE6000EA903 /* DawnKeyManagerFW.framework in Frameworks */,
+				EE02FDECE0C568BAE3199610 /* Pods_DawnKeyManagerFW_DawnKeyManagerFWTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2345AC2C2A30F3AB00152E39 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				2345AC2D2A30F3AB00152E39 /* ExampleApp.swift */,
+				2345AC2F2A30F3AB00152E39 /* ContentView.swift */,
+				2345AC312A30F3AC00152E39 /* Assets.xcassets */,
+				2345AC332A30F3AC00152E39 /* Preview Content */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		2345AC332A30F3AC00152E39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2345AC342A30F3AC00152E39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		237D9AFA2A2E8EE6000EA903 = {
 			isa = PBXGroup;
 			children = (
 				237D9B062A2E8EE6000EA903 /* DawnKeyManagerFW */,
 				237D9B122A2E8EE6000EA903 /* DawnKeyManagerFWTests */,
+				2345AC2C2A30F3AB00152E39 /* Example */,
 				237D9B052A2E8EE6000EA903 /* Products */,
+				65071392D771FF7F93F2F017 /* Pods */,
+				F79443B96D6E70AD9A52F8AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +117,7 @@
 			children = (
 				237D9B042A2E8EE6000EA903 /* DawnKeyManagerFW.framework */,
 				237D9B0E2A2E8EE6000EA903 /* DawnKeyManagerFWTests.xctest */,
+				2345AC2B2A30F3AB00152E39 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +139,30 @@
 			path = DawnKeyManagerFWTests;
 			sourceTree = "<group>";
 		};
+		65071392D771FF7F93F2F017 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A7B0E7665DD850203C526C7 /* Pods-DawnKeyManagerFW.debug.xcconfig */,
+				E5D31B0301133509483AD8DF /* Pods-DawnKeyManagerFW.release.xcconfig */,
+				9FDCCB7141E56E56B43EF355 /* Pods-DawnKeyManagerFW-DawnKeyManagerFWTests.debug.xcconfig */,
+				E25514A8EFEADE0A76EA7B0A /* Pods-DawnKeyManagerFW-DawnKeyManagerFWTests.release.xcconfig */,
+				68CEB0E25912AD811EE765A3 /* Pods-Example.debug.xcconfig */,
+				0E67C58E4830A09C5AEFC5DD /* Pods-Example.release.xcconfig */,
+			);
+			name = Pods;
+			path = Example/Pods;
+			sourceTree = "<group>";
+		};
+		F79443B96D6E70AD9A52F8AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2895CA8E2E9A35E66DBAC8FD /* Pods_DawnKeyManagerFW.framework */,
+				E22CBAEEEC09DA174AD5D4F6 /* Pods_DawnKeyManagerFW_DawnKeyManagerFWTests.framework */,
+				ED04EB1F240B325490FB4358 /* Pods_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -99,10 +177,29 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2345AC2A2A30F3AB00152E39 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2345AC382A30F3AC00152E39 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				3CF1C9AA482EF67911B6C31E /* [CP] Check Pods Manifest.lock */,
+				2345AC272A30F3AB00152E39 /* Sources */,
+				2345AC282A30F3AB00152E39 /* Frameworks */,
+				2345AC292A30F3AB00152E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = 2345AC2B2A30F3AB00152E39 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		237D9B032A2E8EE6000EA903 /* DawnKeyManagerFW */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 237D9B182A2E8EE6000EA903 /* Build configuration list for PBXNativeTarget "DawnKeyManagerFW" */;
 			buildPhases = (
+				1C14E512930250738A6D9B69 /* [CP] Check Pods Manifest.lock */,
 				237D9AFF2A2E8EE6000EA903 /* Headers */,
 				237D9B002A2E8EE6000EA903 /* Sources */,
 				237D9B012A2E8EE6000EA903 /* Frameworks */,
@@ -121,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 237D9B1B2A2E8EE6000EA903 /* Build configuration list for PBXNativeTarget "DawnKeyManagerFWTests" */;
 			buildPhases = (
+				D2CDE5041FDB75CEBFABB54A /* [CP] Check Pods Manifest.lock */,
 				237D9B0A2A2E8EE6000EA903 /* Sources */,
 				237D9B0B2A2E8EE6000EA903 /* Frameworks */,
 				237D9B0C2A2E8EE6000EA903 /* Resources */,
@@ -145,6 +243,9 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					2345AC2A2A30F3AB00152E39 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					237D9B032A2E8EE6000EA903 = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -168,11 +269,21 @@
 			targets = (
 				237D9B032A2E8EE6000EA903 /* DawnKeyManagerFW */,
 				237D9B0D2A2E8EE6000EA903 /* DawnKeyManagerFWTests */,
+				2345AC2A2A30F3AB00152E39 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2345AC292A30F3AB00152E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2345AC352A30F3AC00152E39 /* Preview Assets.xcassets in Resources */,
+				2345AC322A30F3AC00152E39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		237D9B022A2E8EE6000EA903 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,7 +300,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C14E512930250738A6D9B69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DawnKeyManagerFW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CF1C9AA482EF67911B6C31E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2CDE5041FDB75CEBFABB54A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DawnKeyManagerFW-DawnKeyManagerFWTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		2345AC272A30F3AB00152E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2345AC302A30F3AB00152E39 /* ContentView.swift in Sources */,
+				2345AC2E2A30F3AB00152E39 /* ExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		237D9B002A2E8EE6000EA903 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +406,66 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		2345AC362A30F3AC00152E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CEB0E25912AD811EE765A3 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
+				DEVELOPMENT_TEAM = S9P2C87VRV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.copeaks.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2345AC372A30F3AC00152E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E67C58E4830A09C5AEFC5DD /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
+				DEVELOPMENT_TEAM = S9P2C87VRV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.copeaks.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		237D9B162A2E8EE6000EA903 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -339,6 +588,7 @@
 		};
 		237D9B192A2E8EE6000EA903 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7B0E7665DD850203C526C7 /* Pods-DawnKeyManagerFW.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -367,6 +617,7 @@
 		};
 		237D9B1A2A2E8EE6000EA903 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D31B0301133509483AD8DF /* Pods-DawnKeyManagerFW.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -395,6 +646,7 @@
 		};
 		237D9B1C2A2E8EE6000EA903 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FDCCB7141E56E56B43EF355 /* Pods-DawnKeyManagerFW-DawnKeyManagerFWTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -411,6 +663,7 @@
 		};
 		237D9B1D2A2E8EE6000EA903 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E25514A8EFEADE0A76EA7B0A /* Pods-DawnKeyManagerFW-DawnKeyManagerFWTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -428,6 +681,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2345AC382A30F3AC00152E39 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2345AC362A30F3AC00152E39 /* Debug */,
+				2345AC372A30F3AC00152E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		237D9AFE2A2E8EE6000EA903 /* Build configuration list for PBXProject "DawnKeyManagerFW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
